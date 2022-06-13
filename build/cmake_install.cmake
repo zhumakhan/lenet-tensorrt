@@ -1,4 +1,4 @@
-# Install script for directory: /home/nazir/Desktop/projects/yolotrt
+# Install script for directory: /home/nazir/Desktop/projects/lenet-tensorrt
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/nazir/Desktop/projects/yolotrt/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/nazir/Desktop/projects/lenet-tensorrt/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

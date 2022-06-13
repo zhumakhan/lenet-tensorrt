@@ -2,7 +2,7 @@
 #include <NvInferRuntime.h>
 #include <iostream>
 #include <cstring>
-
+#include <cuda_profiler_api.h>
 #include "slenet_params.h"
 #include "read.h"
 
@@ -140,13 +140,16 @@ int main(){
 	unsigned int error = 0;
 	unsigned int max = 0;
 	float time_taken=0;
+    count = 1;
 	for(int i=0;i<count;i++){
         cudaMemcpyAsync(buffer[buf_input_idx], data_set[i].data, 1*28*28*sizeof(float), cudaMemcpyHostToDevice, stream);
         cudaStreamSynchronize(stream);
+        cudaProfilerStart();
         context->enqueue(1, buffer, stream, nullptr);
+        cudaProfilerStop();
         cudaStreamSynchronize(stream); 
         cudaMemcpyAsync(output, buffer[buf_output_idx], 10*sizeof(float), cudaMemcpyDeviceToHost, stream);
-		
+		cudaStreamSynchronize(stream); 
         for(int j=0;j<10;j++){
 			if (output[max] < output[j]){
 				max = j;

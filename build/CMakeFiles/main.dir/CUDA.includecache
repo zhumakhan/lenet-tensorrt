@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/nazir/Desktop/projects/yolotrt/network.cpp
+/home/nazir/Desktop/projects/lenet-tensorrt/network.cpp
 NvInfer.h
 -
 NvInferRuntime.h
@@ -15,12 +15,14 @@ iostream
 -
 cstring
 -
+cuda_runtime_profiler.h
+-
 slenet_params.h
-/home/nazir/Desktop/projects/yolotrt/slenet_params.h
+/home/nazir/Desktop/projects/lenet-tensorrt/slenet_params.h
 read.h
-/home/nazir/Desktop/projects/yolotrt/read.h
+/home/nazir/Desktop/projects/lenet-tensorrt/read.h
 
-/home/nazir/Desktop/projects/yolotrt/read.h
+/home/nazir/Desktop/projects/lenet-tensorrt/read.h
 stdio.h
 -
 stdlib.h
@@ -28,5 +30,5 @@ stdlib.h
 math.h
 -
 
-/home/nazir/Desktop/projects/yolotrt/slenet_params.h
+/home/nazir/Desktop/projects/lenet-tensorrt/slenet_params.h
 

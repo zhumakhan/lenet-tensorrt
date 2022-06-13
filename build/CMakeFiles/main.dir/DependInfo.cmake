@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CUDA
-  "/home/nazir/Desktop/projects/yolotrt/network.cpp" "/home/nazir/Desktop/projects/yolotrt/build/CMakeFiles/main.dir/network.cpp"
+  "/home/nazir/Desktop/projects/lenet-tensorrt/network.cpp" "/home/nazir/Desktop/projects/lenet-tensorrt/build/CMakeFiles/main.dir/network.cpp"
   )
 
 # The include file search paths:
