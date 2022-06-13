@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nazir/Desktop/projects/yolotrt/network.cpp
+NvInfer.h
+-
+NvInferRuntime.h
+-
+iostream
+-
+cstring
+-
+slenet_params.h
+/home/nazir/Desktop/projects/yolotrt/slenet_params.h
+read.h
+/home/nazir/Desktop/projects/yolotrt/read.h
+
+/home/nazir/Desktop/projects/yolotrt/read.h
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+
+/home/nazir/Desktop/projects/yolotrt/slenet_params.h
+

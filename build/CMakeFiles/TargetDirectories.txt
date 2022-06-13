@@ -1,0 +1,3 @@
+/home/nazir/Desktop/projects/yolotrt/build/CMakeFiles/main.dir
+/home/nazir/Desktop/projects/yolotrt/build/CMakeFiles/edit_cache.dir
+/home/nazir/Desktop/projects/yolotrt/build/CMakeFiles/rebuild_cache.dir
